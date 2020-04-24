@@ -46,22 +46,21 @@ make training MODEL_NAME=New Name
 ```
 2. Prepare the base traineddata
 
-If you train from scratch, no need to do this. If you train Fine-tune, download the base traineddata from the [tessdata_best](https://github.com/tesseract-ocr/tessdata_best),
-and Place it to the ./data/tessdata.
+   If you train from scratch, no need to do this. If you train Fine-tune, download the base traineddata from the [tessdata_best](https://github.com/tesseract-ocr/tessdata_best),and Place it to the ./data/tessdata.
 
 3. Change the foo.numbers/foo.punc/foo.wordlist in data filefolder
 
-The three files should be consistent with the base traineddata. You could download them from [langdata_lstm](https://github.com/tesseract-ocr/langdata_lstm).
+   The three files should be consistent with the base traineddata. You could download them from [langdata_lstm](https://github.com/tesseract-ocr/langdata_lstm).
 
 4. Prepare the ground truth
 
-Place ground truth consisting of line images and transcriptions in the folder data/MODEL_NAME-ground-truth. This list of files will be split into training and evaluation data, the ratio is defined by the RATIO_TRAIN variable.
+   Place ground truth consisting of line images and transcriptions in the folder data/MODEL_NAME-ground-truth. This list of files will be split into training and evaluation data, the ratio is defined by the RATIO_TRAIN variable.
 
-Images must be TIFF and have the extension .tif or PNG and have the extension .png, .bin.png or .nrm.png.
+   Images must be TIFF and have the extension .tif or PNG and have the extension .png, .bin.png or .nrm.png.
 
-Transcriptions must be single-line plain text and have the same name as the line image but with the image extension replaced by .gt.txt.
+   Transcriptions must be single-line plain text and have the same name as the line image but with the image extension replaced by .gt.txt.
 
-5.Run the command prompt as an administrator, Go to the tesstrain-win directory, e. g.:
+5. Run the command prompt as an administrator, Go to the tesstrain-win directory, e. g.:
 ```
 cd %USERPROFILE%/tesstrain-win
 ```

@@ -53,7 +53,11 @@ make training MODEL_NAME=New_Name
 
 3. update the foo.numbers/foo.punc/foo.wordlist in data filefolder
 
-   If you choose TRAIN FROM SCRATCH(no value for the START_MODEL in makefile), no need to change them; If you choose Fine-tune(Set value for START_MODEL in makefile),The three files should be consistent with the base traineddata. Ex, if your base traineddata is eng, You could download them from [langdata_lstm/eng](https://github.com/tesseract-ocr/langdata_lstm/tree/master/eng).But you need to rename them separately：New_Name.numbers/New_Name.punc/New_Name.wordlist after download.
+   If you choose TRAIN FROM SCRATCH(no value for the START_MODEL in makefile), no need to change them.
+   
+   If you choose Fine-tune(Set value for START_MODEL in makefile),The three files should be consistent with the base traineddata. 
+   
+   Ex, if your base traineddata is eng, You could download them from [langdata_lstm/eng](https://github.com/tesseract-ocr/langdata_lstm/tree/master/eng).But you need to rename them separately：New_Name.numbers/New_Name.punc/New_Name.wordlist after download.
 
 4. Prepare the ground truth
 

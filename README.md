@@ -38,11 +38,11 @@ make training
 
    You could give the name by change the line 11 in **makefile**
 ```
-MODEL_NAME = New Name
+MODEL_NAME = New_Name
 ```
    Or you could give the name when you run **make training**
 ```
-make training MODEL_NAME=New Name
+make training MODEL_NAME=New_Name
 ```
 2. Prepare the base traineddata
 
@@ -50,7 +50,7 @@ make training MODEL_NAME=New Name
 
 3. Change the foo.numbers/foo.punc/foo.wordlist in data filefolder
 
-   The three files should be consistent with the base traineddata. You could download them from [langdata_lstm](https://github.com/tesseract-ocr/langdata_lstm).
+   The three files should be consistent with the base traineddata. You could download them from [langdata_lstm](https://github.com/tesseract-ocr/langdata_lstm).But you need to rename them separately：New_Name.numbers/New_Name.punc/New_Name.wordlist
 
 4. Prepare the ground truth
 

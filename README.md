@@ -7,6 +7,8 @@ The ocrd-train(OCR-D/ocrd-train) in tesstrain-win is the Predecessor of [tessera
 
 The file structure in tesstrain-win:
 ![image](https://livezingy.com/uploads/2020/04/TesstrainWinStructure.png)
+# Recommendations for choosing a training method
+![image](https://livezingy.com/uploads/2020/05/choose%20method.png)
 # Requirements
 ## tesseract
 You will need a recent version (>= 4.0.0beta1) of tesseract built with the training tools and matching leptonica bindings. 

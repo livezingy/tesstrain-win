@@ -75,9 +75,3 @@ cd %USERPROFILE%/tesstrain-win
 ```
 make training
 ```
-
-[How the makefile in tesstrain-win work](https://livezingy.com/how-the-makefile-in-tesstrain-win-work/)
-
-[Train Tesseract LSTM with tesstrain.sh on Windows](https://livezingy.com/train-tesseract-lstm-with-tesstrain-sh-on-windows/)
-
-[Win10 Tesseract4.1 LSTM training](https://livezingy.com/win10-tesseract4-1-lstm-training/)

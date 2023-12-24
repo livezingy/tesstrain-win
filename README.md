@@ -6,20 +6,19 @@ The tesstrain-win comes from the  [tesseract-ocr/tesstrain](https://github.com/t
 The ocrd-train(OCR-D/ocrd-train) in tesstrain-win is the Predecessor of [tesseract-ocr/tesstrain](https://github.com/tesseract-ocr/tesstrain). it Could help us understand the makefile of tesseract-ocr/tesstrain.
 
 The file structure in tesstrain-win:
-![image](https://livezingy.com/uploads/2020/04/TesstrainWinStructure.png)
+![image](https://github.com/livezingy/tesstrain-win/blob/master/trainWinFiles.png)
 # Recommendations for choosing a training method
-![image](https://livezingy.com/uploads/2020/05/choose%20method.png)
+![image](https://github.com/livezingy/tesstrain-win/blob/master/chooseMethod.png)
 # Requirements
 ## tesseract
 You will need a recent version (>= 4.0.0beta1) of tesseract built with the training tools and matching leptonica bindings. 
 
 Build instructions and more can be found in the [Tesseract project wiki](https://github.com/tesseract-ocr/tesseract/wiki).
 
-Build tesseract instructions on Windows can be found in the [Tesseract4.0+VS2017+win10](https://livezingy.com/compilation-tesseract4-in-vs2017-win10/).
 ## Python
 You need a recent version of Python 3.x. For image processing the Python library Pillow is used.
 ## Cygwin
-In order to run the makefile on Windows, you need the Cygwin. Install instructions could refer to [Install Cygwin on Win10 for makefile](https://livezingy.com/install-cygwin-on-win10-for-makefile/)
+In order to run the makefile on Windows, you need the Cygwin. 
 # How to Use tesstrain-win
 Before training your own database, it is recommended to train [ocrd-testset.zip](https://github.com/livezingy/tesstrain-win/tree/master/data/foo-ground-truth) first.
 
@@ -76,13 +75,6 @@ cd %USERPROFILE%/tesstrain-win
 ```
 make training
 ```
-
-# More Information About Train Tesseract LSTM
-More information about Train Tesseract LSTM could refer to:
-
-[Train Tesseract LSTM methods Comparison](https://livezingy.com/train-tesseract-lstm-methods-comparison/)
-
-[Train Tesseract LSTM with make on Windows](https://livezingy.com/train-tesseract-lstm-with-make-on-windows/)
 
 [How the makefile in tesstrain-win work](https://livezingy.com/how-the-makefile-in-tesstrain-win-work/)
 
